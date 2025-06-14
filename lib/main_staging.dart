@@ -15,9 +15,9 @@ class DocuVaultApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Banner(
-      message: 'PRODUCTION',
+      message: 'Staging'.toUpperCase(),
       location: BannerLocation.topEnd,
-      color: Colors.green,
+      color: Colors.orange,
       child: MaterialApp.router(
         title: 'DocuVault',
         debugShowCheckedModeBanner: false,
