@@ -6,11 +6,8 @@ import 'routing/app_router.dart';
 import 'ui/core/themes/app_themes.dart';
 import 'utils/enums/environment.dart';
 
-Future<void> mainApp({
-  required String envFile,
-  required Environment environment,
-}) async {
-  await dotenv.load(fileName: envFile);
+Future<void> init({required Environment environment}) async {
+  await dotenv.load(fileName: environment.path);
   AppConfig.initialize(environment);
   runApp(DocuVaultApp(environment: environment));
 }
@@ -33,9 +30,9 @@ class DocuVaultApp extends StatelessWidget {
       builder: (context, child) {
         if (environment != Environment.prod) {
           return Banner(
-            message: environment.name.toUpperCase(),
+            message: environment.label.toUpperCase(),
             location: BannerLocation.topEnd,
-            color: environment == Environment.dev ? Colors.blue : Colors.orange,
+            color: environment.color,
             child: child!,
           );
         }

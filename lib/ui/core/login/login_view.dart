@@ -1,9 +1,13 @@
+import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'login_provider.dart';
 
+@RoutePage()
 class LoginPage extends StatelessWidget {
+  const LoginPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
@@ -16,6 +20,6 @@ class LoginPage extends StatelessWidget {
     final provider = context.read<LoginProvider>();
     final state = provider.state;
 
-    return Container();
+    return Scaffold();
   }
 }

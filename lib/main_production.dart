@@ -2,5 +2,5 @@ import 'app.dart';
 import 'utils/enums/environment.dart';
 
 Future<void> main() async {
-  await mainApp(envFile: '.env', environment: Environment.prod);
+  await init(environment: Environment.prod);
 }
