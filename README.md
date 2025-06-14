@@ -144,5 +144,5 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 
 ## Contact
 
-- Developer: [Subhanu Majumder](https://github.com/majumdersubhanu)
-- Email: [you@example.com] (replace with your actual email if desired)
+Made with ❤️ by Subhanu Majumder
+[https://www.linkedin.com/in/subhanumajumder/][LinkedIn] | [https://github.com/majumdersubhanu/][GitHub] | [mailto:reach.subhanu@gmail.com][Email]
