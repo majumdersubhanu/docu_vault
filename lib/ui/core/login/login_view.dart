@@ -20,6 +20,6 @@ class LoginPage extends StatelessWidget {
     final provider = context.read<LoginProvider>();
     final state = provider.state;
 
-    return Scaffold();
+    return Scaffold(appBar: AppBar(title: Text('Login')));
   }
 }
