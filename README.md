@@ -145,4 +145,5 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 ## Contact
 
 Made with ❤️ by Subhanu Majumder
-[https://www.linkedin.com/in/subhanumajumder/][LinkedIn] | [https://github.com/majumdersubhanu/][GitHub] | [mailto:reach.subhanu@gmail.com][Email]
+
+[LinkedIn][https://www.linkedin.com/in/subhanumajumder/] | [GitHub][https://github.com/majumdersubhanu/] | [Email][mailto:reach.subhanu@gmail.com]
